@@ -11,10 +11,8 @@ const config: QuartzConfig = {
     pageTitle: "🪴 Quartz 4.0",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    enablePopovers: true, 
+    analytics: { provider: 'google', tagId: 'GTM-WPVJDBXV' },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
